@@ -1,0 +1,12 @@
+{
+    "name": "ancient/egypt",
+    "description": "Museum website for ancient Egyptian artifacts",
+    "autoload": {
+        "psr-4": {
+            "Ancient\\Egypt\\": "src/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

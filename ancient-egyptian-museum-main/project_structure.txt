@@ -1,0 +1,578 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 5A5C-102B
+D:.
+³   .env.example
+³   composer.json
+³   composer.lock
+³   project_structure.txt
+³   
+ÃÄÄÄApp
+³   ÀÄÄÄControllers
+³       ³   HomeController.php
+³       ³   
+³       ÃÄÄÄAuth
+³       ³       RegisterController.php
+³       ³       
+³       ÀÄÄÄModels
+³               Model.php
+³               User.php
+³               
+ÃÄÄÄconfig
+³       app.php
+³       database.php
+³       mail.php
+³       
+ÃÄÄÄdatabase
+³       database.sqlite
+³       
+ÃÄÄÄNEW_PPP
+ÃÄÄÄpublic
+³       index.php
+³       
+ÃÄÄÄroutes
+³       web.php
+³       
+ÃÄÄÄsrc
+³   ³   Application
+³   ³   
+³   ÃÄÄÄDatabase
+³   ³   ³   DB.php
+³   ³   ³   
+³   ³   ÃÄÄÄConcerns
+³   ³   ³       ConnectsTo.php
+³   ³   ³       
+³   ³   ÃÄÄÄGrammars
+³   ³   ³       MySQLGrammar.php
+³   ³   ³       
+³   ³   ÀÄÄÄManagers
+³   ³       ³   MySQLManager.php
+³   ³       ³   SQLiteManager.php
+³   ³       ³   
+³   ³       ÀÄÄÄContracts
+³   ³               DatabaseManager.php
+³   ³               
+³   ÃÄÄÄHttp
+³   ³       Request.php
+³   ³       Response.php
+³   ³       Route.php
+³   ³       
+³   ÃÄÄÄSupport
+³   ³       Arr.php
+³   ³       Config.php
+³   ³       Hash.php
+³   ³       helpers.php
+³   ³       Session.php
+³   ³       Str.php
+³   ³       
+³   ÃÄÄÄValidation
+³   ³   ³   ErrorBag.php
+³   ³   ³   Message.php
+³   ³   ³   RulesMapper.php
+³   ³   ³   RulesResolver.php
+³   ³   ³   Validator.php
+³   ³   ³   
+³   ³   ÀÄÄÄRules
+³   ³       ³   AlphaNumRule.php
+³   ³       ³   BetweenRule.php
+³   ³       ³   ConfirmRuled.php
+³   ³       ³   EmailRule.php
+³   ³       ³   MaxRule.php
+³   ³       ³   RequiredRule.php
+³   ³       ³   UniqueRule.php
+³   ³       ³   
+³   ³       ÀÄÄÄContract
+³   ³               Rule.php
+³   ³               
+³   ÀÄÄÄView
+³           View.php
+³           
+ÃÄÄÄvendor
+³   ³   autoload.php
+³   ³   
+³   ÃÄÄÄbin
+³   ³       var-dump-server
+³   ³       var-dump-server.bat
+³   ³       
+³   ÃÄÄÄcomposer
+³   ³       autoload_classmap.php
+³   ³       autoload_files.php
+³   ³       autoload_namespaces.php
+³   ³       autoload_psr4.php
+³   ³       autoload_real.php
+³   ³       autoload_static.php
+³   ³       ClassLoader.php
+³   ³       installed.json
+³   ³       installed.php
+³   ³       InstalledVersions.php
+³   ³       LICENSE
+³   ³       platform_check.php
+³   ³       
+³   ÃÄÄÄgraham-campbell
+³   ³   ÀÄÄÄresult-type
+³   ³       ³   .gitattributes
+³   ³       ³   .gitignore
+³   ³       ³   CHANGELOG.md
+³   ³       ³   composer.json
+³   ³       ³   LICENSE
+³   ³       ³   phpunit.xml.dist
+³   ³       ³   README.md
+³   ³       ³   
+³   ³       ÃÄÄÄ.github
+³   ³       ³   ³   CODE_OF_CONDUCT.md
+³   ³       ³   ³   CONTRIBUTING.md
+³   ³       ³   ³   FUNDING.yml
+³   ³       ³   ³   SECURITY.md
+³   ³       ³   ³   
+³   ³       ³   ÀÄÄÄworkflows
+³   ³       ³           tests.yml
+³   ³       ³           
+³   ³       ÃÄÄÄsrc
+³   ³       ³       Error.php
+³   ³       ³       Result.php
+³   ³       ³       Success.php
+³   ³       ³       
+³   ³       ÀÄÄÄtests
+³   ³               ResultTest.php
+³   ³               
+³   ÃÄÄÄphpoption
+³   ³   ÀÄÄÄphpoption
+³   ³       ³   .gitattributes
+³   ³       ³   .gitignore
+³   ³       ³   composer.json
+³   ³       ³   LICENSE
+³   ³       ³   Makefile
+³   ³       ³   phpstan-baseline.neon
+³   ³       ³   phpstan.neon.dist
+³   ³       ³   phpunit.xml.dist
+³   ³       ³   psalm-baseline.xml
+³   ³       ³   psalm.xml
+³   ³       ³   README.md
+³   ³       ³   
+³   ³       ÃÄÄÄ.github
+³   ³       ³   ³   CODE_OF_CONDUCT.md
+³   ³       ³   ³   CONTRIBUTING.md
+³   ³       ³   ³   FUNDING.yml
+³   ³       ³   ³   SECURITY.md
+³   ³       ³   ³   
+³   ³       ³   ÀÄÄÄworkflows
+³   ³       ³           static.yml
+³   ³       ³           tests.yml
+³   ³       ³           
+³   ³       ÃÄÄÄsrc
+³   ³       ³   ÀÄÄÄPhpOption
+³   ³       ³           LazyOption.php
+³   ³       ³           None.php
+³   ³       ³           Option.php
+³   ³       ³           Some.php
+³   ³       ³           
+³   ³       ÃÄÄÄtests
+³   ³       ³   ³   bootstrap.php
+³   ³       ³   ³   
+³   ³       ³   ÀÄÄÄPhpOption
+³   ³       ³       ÀÄÄÄTests
+³   ³       ³               EnsureTest.php
+³   ³       ³               LazyOptionTest.php
+³   ³       ³               NoneTest.php
+³   ³       ³               OptionTest.php
+³   ³       ³               SomeTest.php
+³   ³       ³               
+³   ³       ÀÄÄÄvendor-bin
+³   ³           ÃÄÄÄphpstan
+³   ³           ³       composer.json
+³   ³           ³       
+³   ³           ÀÄÄÄpsalm
+³   ³                   composer.json
+³   ³                   
+³   ÃÄÄÄsymfony
+³   ³   ÃÄÄÄpolyfill-ctype
+³   ³   ³       bootstrap.php
+³   ³   ³       bootstrap80.php
+³   ³   ³       composer.json
+³   ³   ³       Ctype.php
+³   ³   ³       LICENSE
+³   ³   ³       README.md
+³   ³   ³       
+³   ³   ÃÄÄÄpolyfill-mbstring
+³   ³   ³   ³   bootstrap.php
+³   ³   ³   ³   bootstrap80.php
+³   ³   ³   ³   composer.json
+³   ³   ³   ³   LICENSE
+³   ³   ³   ³   Mbstring.php
+³   ³   ³   ³   README.md
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄResources
+³   ³   ³       ÀÄÄÄunidata
+³   ³   ³               caseFolding.php
+³   ³   ³               lowerCase.php
+³   ³   ³               titleCaseRegexp.php
+³   ³   ³               upperCase.php
+³   ³   ³               
+³   ³   ÃÄÄÄpolyfill-php80
+³   ³   ³   ³   bootstrap.php
+³   ³   ³   ³   composer.json
+³   ³   ³   ³   LICENSE
+³   ³   ³   ³   Php80.php
+³   ³   ³   ³   PhpToken.php
+³   ³   ³   ³   README.md
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄResources
+³   ³   ³       ÀÄÄÄstubs
+³   ³   ³               Attribute.php
+³   ³   ³               PhpToken.php
+³   ³   ³               Stringable.php
+³   ³   ³               UnhandledMatchError.php
+³   ³   ³               ValueError.php
+³   ³   ³               
+³   ³   ÀÄÄÄvar-dumper
+³   ³       ³   .gitattributes
+³   ³       ³   .gitignore
+³   ³       ³   CHANGELOG.md
+³   ³       ³   composer.json
+³   ³       ³   LICENSE
+³   ³       ³   phpunit.xml.dist
+³   ³       ³   README.md
+³   ³       ³   VarDumper.php
+³   ³       ³   
+³   ³       ÃÄÄÄ.github
+³   ³       ³   ³   PULL_REQUEST_TEMPLATE.md
+³   ³       ³   ³   
+³   ³       ³   ÀÄÄÄworkflows
+³   ³       ³           close-pull-request.yml
+³   ³       ³           
+³   ³       ÃÄÄÄCaster
+³   ³       ³       AmqpCaster.php
+³   ³       ³       ArgsStub.php
+³   ³       ³       Caster.php
+³   ³       ³       ClassStub.php
+³   ³       ³       ConstStub.php
+³   ³       ³       CutArrayStub.php
+³   ³       ³       CutStub.php
+³   ³       ³       DateCaster.php
+³   ³       ³       DoctrineCaster.php
+³   ³       ³       DOMCaster.php
+³   ³       ³       DsCaster.php
+³   ³       ³       DsPairStub.php
+³   ³       ³       EnumStub.php
+³   ³       ³       ExceptionCaster.php
+³   ³       ³       FFICaster.php
+³   ³       ³       FiberCaster.php
+³   ³       ³       FrameStub.php
+³   ³       ³       GmpCaster.php
+³   ³       ³       ImagineCaster.php
+³   ³       ³       ImgStub.php
+³   ³       ³       IntlCaster.php
+³   ³       ³       LinkStub.php
+³   ³       ³       MemcachedCaster.php
+³   ³       ³       MysqliCaster.php
+³   ³       ³       PdoCaster.php
+³   ³       ³       PgSqlCaster.php
+³   ³       ³       ProxyManagerCaster.php
+³   ³       ³       RdKafkaCaster.php
+³   ³       ³       RedisCaster.php
+³   ³       ³       ReflectionCaster.php
+³   ³       ³       ResourceCaster.php
+³   ³       ³       ScalarStub.php
+³   ³       ³       SplCaster.php
+³   ³       ³       StubCaster.php
+³   ³       ³       SymfonyCaster.php
+³   ³       ³       TraceStub.php
+³   ³       ³       UninitializedStub.php
+³   ³       ³       UuidCaster.php
+³   ³       ³       VirtualStub.php
+³   ³       ³       XmlReaderCaster.php
+³   ³       ³       XmlResourceCaster.php
+³   ³       ³       
+³   ³       ÃÄÄÄCloner
+³   ³       ³   ³   AbstractCloner.php
+³   ³       ³   ³   ClonerInterface.php
+³   ³       ³   ³   Cursor.php
+³   ³       ³   ³   Data.php
+³   ³       ³   ³   DumperInterface.php
+³   ³       ³   ³   Stub.php
+³   ³       ³   ³   VarCloner.php
+³   ³       ³   ³   
+³   ³       ³   ÀÄÄÄInternal
+³   ³       ³           NoDefault.php
+³   ³       ³           
+³   ³       ÃÄÄÄCommand
+³   ³       ³   ³   ServerDumpCommand.php
+³   ³       ³   ³   
+³   ³       ³   ÀÄÄÄDescriptor
+³   ³       ³           CliDescriptor.php
+³   ³       ³           DumpDescriptorInterface.php
+³   ³       ³           HtmlDescriptor.php
+³   ³       ³           
+³   ³       ÃÄÄÄDumper
+³   ³       ³   ³   AbstractDumper.php
+³   ³       ³   ³   CliDumper.php
+³   ³       ³   ³   ContextualizedDumper.php
+³   ³       ³   ³   DataDumperInterface.php
+³   ³       ³   ³   HtmlDumper.php
+³   ³       ³   ³   ServerDumper.php
+³   ³       ³   ³   
+³   ³       ³   ÀÄÄÄContextProvider
+³   ³       ³           CliContextProvider.php
+³   ³       ³           ContextProviderInterface.php
+³   ³       ³           RequestContextProvider.php
+³   ³       ³           SourceContextProvider.php
+³   ³       ³           
+³   ³       ÃÄÄÄException
+³   ³       ³       ThrowingCasterException.php
+³   ³       ³       
+³   ³       ÃÄÄÄResources
+³   ³       ³   ÃÄÄÄbin
+³   ³       ³   ³       var-dump-server
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄcss
+³   ³       ³   ³       htmlDescriptor.css
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄfunctions
+³   ³       ³   ³       dump.php
+³   ³       ³   ³       
+³   ³       ³   ÀÄÄÄjs
+³   ³       ³           htmlDescriptor.js
+³   ³       ³           
+³   ³       ÃÄÄÄServer
+³   ³       ³       Connection.php
+³   ³       ³       DumpServer.php
+³   ³       ³       
+³   ³       ÃÄÄÄTest
+³   ³       ³       VarDumperTestTrait.php
+³   ³       ³       
+³   ³       ÀÄÄÄTests
+³   ³           ÃÄÄÄCaster
+³   ³           ³       CasterTest.php
+³   ³           ³       DateCasterTest.php
+³   ³           ³       DoctrineCasterTest.php
+³   ³           ³       DOMCasterTest.php
+³   ³           ³       ExceptionCasterTest.php
+³   ³           ³       FFICasterTest.php
+³   ³           ³       FiberCasterTest.php
+³   ³           ³       GmpCasterTest.php
+³   ³           ³       IntlCasterTest.php
+³   ³           ³       MemcachedCasterTest.php
+³   ³           ³       MysqliCasterTest.php
+³   ³           ³       PdoCasterTest.php
+³   ³           ³       RdKafkaCasterTest.php
+³   ³           ³       RedisCasterTest.php
+³   ³           ³       ReflectionCasterTest.php
+³   ³           ³       SplCasterTest.php
+³   ³           ³       StubCasterTest.php
+³   ³           ³       SymfonyCasterTest.php
+³   ³           ³       XmlReaderCasterTest.php
+³   ³           ³       
+³   ³           ÃÄÄÄCloner
+³   ³           ³       DataTest.php
+³   ³           ³       StubTest.php
+³   ³           ³       VarClonerTest.php
+³   ³           ³       
+³   ³           ÃÄÄÄCommand
+³   ³           ³   ³   ServerDumpCommandTest.php
+³   ³           ³   ³   
+³   ³           ³   ÀÄÄÄDescriptor
+³   ³           ³           CliDescriptorTest.php
+³   ³           ³           HtmlDescriptorTest.php
+³   ³           ³           
+³   ³           ÃÄÄÄDumper
+³   ³           ³   ³   CliDumperTest.php
+³   ³           ³   ³   ContextualizedDumperTest.php
+³   ³           ³   ³   FunctionsTest.php
+³   ³           ³   ³   HtmlDumperTest.php
+³   ³           ³   ³   ServerDumperTest.php
+³   ³           ³   ³   
+³   ³           ³   ÃÄÄÄContextProvider
+³   ³           ³   ³       RequestContextProviderTest.php
+³   ³           ³   ³       
+³   ³           ³   ÀÄÄÄfunctions
+³   ³           ³           dd_with_multiple_args.phpt
+³   ³           ³           dd_with_named_args.phpt
+³   ³           ³           dd_with_null.phpt
+³   ³           ³           dd_with_single_arg.phpt
+³   ³           ³           dump_data_collector_with_spl_array.phpt
+³   ³           ³           dump_without_args.phpt
+³   ³           ³           dump_with_multiple_args.phpt
+³   ³           ³           dump_with_named_args.phpt
+³   ³           ³           dump_with_null.phpt
+³   ³           ³           dump_with_single_arg.phpt
+³   ³           ³           
+³   ³           ÃÄÄÄFixtures
+³   ³           ³       BackedEnumFixture.php
+³   ³           ³       DateTimeChild.php
+³   ³           ³       dumb-var.php
+³   ³           ³       dump_server.php
+³   ³           ³       ExtendsReflectionTypeFixture.php
+³   ³           ³       FooInterface.php
+³   ³           ³       GeneratorDemo.php
+³   ³           ³       LotsOfAttributes.php
+³   ³           ³       MyAttribute.php
+³   ³           ³       NotLoadableClass.php
+³   ³           ³       Php74.php
+³   ³           ³       Php81Enums.php
+³   ³           ³       Php82NullStandaloneReturnType.php
+³   ³           ³       ReflectionIntersectionTypeFixture.php
+³   ³           ³       ReflectionNamedTypeFixture.php
+³   ³           ³       ReflectionUnionTypeFixture.php
+³   ³           ³       ReflectionUnionTypeWithIntersectionFixture.php
+³   ³           ³       Twig.php
+³   ³           ³       UnitEnumFixture.php
+³   ³           ³       VirtualProperty.php
+³   ³           ³       xml_reader.xml
+³   ³           ³       
+³   ³           ÃÄÄÄServer
+³   ³           ³       ConnectionTest.php
+³   ³           ³       
+³   ³           ÀÄÄÄTest
+³   ³                   VarDumperTestTraitTest.php
+³   ³                   
+³   ÀÄÄÄvlucas
+³       ÀÄÄÄphpdotenv
+³           ³   .editorconfig
+³           ³   .gitattributes
+³           ³   .gitignore
+³           ³   composer.json
+³           ³   LICENSE
+³           ³   Makefile
+³           ³   phpstan-baseline.neon
+³           ³   phpstan.neon.dist
+³           ³   phpunit.xml.dist
+³           ³   psalm-baseline.xml
+³           ³   psalm.xml
+³           ³   README.md
+³           ³   UPGRADING.md
+³           ³   
+³           ÃÄÄÄ.github
+³           ³   ³   CODE_OF_CONDUCT.md
+³           ³   ³   CONTRIBUTING.md
+³           ³   ³   FUNDING.yml
+³           ³   ³   SECURITY.md
+³           ³   ³   
+³           ³   ÀÄÄÄworkflows
+³           ³           static.yml
+³           ³           tests.yml
+³           ³           
+³           ÃÄÄÄsrc
+³           ³   ³   Dotenv.php
+³           ³   ³   Validator.php
+³           ³   ³   
+³           ³   ÃÄÄÄException
+³           ³   ³       ExceptionInterface.php
+³           ³   ³       InvalidEncodingException.php
+³           ³   ³       InvalidFileException.php
+³           ³   ³       InvalidPathException.php
+³           ³   ³       ValidationException.php
+³           ³   ³       
+³           ³   ÃÄÄÄLoader
+³           ³   ³       Loader.php
+³           ³   ³       LoaderInterface.php
+³           ³   ³       Resolver.php
+³           ³   ³       
+³           ³   ÃÄÄÄParser
+³           ³   ³       Entry.php
+³           ³   ³       EntryParser.php
+³           ³   ³       Lexer.php
+³           ³   ³       Lines.php
+³           ³   ³       Parser.php
+³           ³   ³       ParserInterface.php
+³           ³   ³       Value.php
+³           ³   ³       
+³           ³   ÃÄÄÄRepository
+³           ³   ³   ³   AdapterRepository.php
+³           ³   ³   ³   RepositoryBuilder.php
+³           ³   ³   ³   RepositoryInterface.php
+³           ³   ³   ³   
+³           ³   ³   ÀÄÄÄAdapter
+³           ³   ³           AdapterInterface.php
+³           ³   ³           ApacheAdapter.php
+³           ³   ³           ArrayAdapter.php
+³           ³   ³           EnvConstAdapter.php
+³           ³   ³           GuardedWriter.php
+³           ³   ³           ImmutableWriter.php
+³           ³   ³           MultiReader.php
+³           ³   ³           MultiWriter.php
+³           ³   ³           PutenvAdapter.php
+³           ³   ³           ReaderInterface.php
+³           ³   ³           ReplacingWriter.php
+³           ³   ³           ServerConstAdapter.php
+³           ³   ³           WriterInterface.php
+³           ³   ³           
+³           ³   ÃÄÄÄStore
+³           ³   ³   ³   FileStore.php
+³           ³   ³   ³   StoreBuilder.php
+³           ³   ³   ³   StoreInterface.php
+³           ³   ³   ³   StringStore.php
+³           ³   ³   ³   
+³           ³   ³   ÀÄÄÄFile
+³           ³   ³           Paths.php
+³           ³   ³           Reader.php
+³           ³   ³           
+³           ³   ÀÄÄÄUtil
+³           ³           Regex.php
+³           ³           Str.php
+³           ³           
+³           ÃÄÄÄtests
+³           ³   ÃÄÄÄDotenv
+³           ³   ³   ³   DotenvTest.php
+³           ³   ³   ³   ValidatorTest.php
+³           ³   ³   ³   
+³           ³   ³   ÃÄÄÄLoader
+³           ³   ³   ³       LoaderTest.php
+³           ³   ³   ³       
+³           ³   ³   ÃÄÄÄParser
+³           ³   ³   ³       EntryParserTest.php
+³           ³   ³   ³       LexerTest.php
+³           ³   ³   ³       LinesTest.php
+³           ³   ³   ³       ParserTest.php
+³           ³   ³   ³       
+³           ³   ³   ÃÄÄÄRepository
+³           ³   ³   ³   ³   RepositoryTest.php
+³           ³   ³   ³   ³   
+³           ³   ³   ³   ÀÄÄÄAdapter
+³           ³   ³   ³           ArrayAdapterTest.php
+³           ³   ³   ³           EnvConstAdapterTest.php
+³           ³   ³   ³           PutenvAdapterTest.php
+³           ³   ³   ³           ServerConstAdapterTest.php
+³           ³   ³   ³           
+³           ³   ³   ÀÄÄÄStore
+³           ³   ³           StoreTest.php
+³           ³   ³           
+³           ³   ÀÄÄÄfixtures
+³           ³       ÀÄÄÄenv
+³           ³               .env
+³           ³               assertions.env
+³           ³               booleans.env
+³           ³               commented.env
+³           ³               empty.env
+³           ³               example.env
+³           ³               exported.env
+³           ³               immutable.env
+³           ³               integers.env
+³           ³               large.env
+³           ³               multibyte.env
+³           ³               multiline.env
+³           ³               multiple.env
+³           ³               mutable.env
+³           ³               nested.env
+³           ³               quoted.env
+³           ³               specialchars.env
+³           ³               unicodevarnames.env
+³           ³               utf8-with-bom-encoding.env
+³           ³               windows.env
+³           ³               
+³           ÀÄÄÄvendor-bin
+³               ÃÄÄÄphpstan
+³               ³       composer.json
+³               ³       
+³               ÀÄÄÄpsalm
+³                       composer.json
+³                       
+ÀÄÄÄviews
+    ÃÄÄÄerrors
+    ³       404.php
+    ³       500.php
+    ³       
+    ÃÄÄÄlayouts
+    ³       main.php
+    ³       
+    ÀÄÄÄpartials
+            navbar.php
+            
